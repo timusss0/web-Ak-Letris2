@@ -1,3 +1,12 @@
+*, html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#main{
+  margin: 0%;
+}
+
 html {
   font-size: 100%;
 }
@@ -5,21 +14,18 @@ body {
   font-size: 15px;
   font-size: 0.9375rem;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
-  color: #666666;
+  /* color: #666666; */
   padding: 0;
+  
 }
 .topspace {
-  margin-top: 40px;
+    margin-top: 40px;
+    justify-content: center;
 }
-/*********************************************************************
 
 
-                            Navigation in header
-
-
-**********************************************************************/
 .display-1 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
 }
 .navbar {
@@ -202,7 +208,7 @@ a:hover {
   color: #e93675;
 }
 .lead {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 21px;
   font-size: 1.3125rem;
 }
@@ -232,7 +238,10 @@ a:hover {
   background: url(../images/letriss.jpg);
   background-size: cover;
   color: #7C7C7C;
-  padding: 30px 0 35px 0;
+  padding: 0;
+  width: 100%;
+
+  
   
 }
 .Transparent-Background {
@@ -297,6 +306,7 @@ a:hover {
 }
 .home #head {
   padding: 90px 0;
+  margin: 0;
 }
 .home #head .title {
   font-size: 49px;
@@ -535,7 +545,6 @@ img {
   display: block;
   width: 100%;
   overflow: hidden;
-  margin: 0px 0 25px;
   text-align: center;
   font-weight: 300;
   text-transform: uppercase;
@@ -822,6 +831,29 @@ footer.entry-meta .meta-in {
 .follow-me-icons i {
   float: left;
   margin: 0 10px 0 0;
+}
+.rows {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.rowss {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-flex;
+}
+.card-titles {
+  text-align: center;
+  font-weight: bolder;
+  justify-content: center;
+}
+.card-titless {
+  width: 100%;
+}
+.card {
+  border: none;
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
